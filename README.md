@@ -8,7 +8,7 @@ Features
 - Task Creation Dialogue: Allows users to add new tasks with a title, priority, and optional due date.
 - Task management: Create, Read, Update (toggle completion), and Delete tasks.
 - Local Persistence: Tasks are stored in a local tasks.json file.
-- Real-Time Sync: Automatically refreshes the task list every 10 seconds.
+
 
  Native Android Integration
 - Task Reminders: Uses Flutter platform channels to schedule reminders for tasks with a due date.
@@ -19,6 +19,7 @@ Tech Stack
 - State Management: Stacked (ViewModel-based architecture)
 - Local Storage: JSON file handling
 - Platform Channels: Native Android integration for reminders
+- created a unique task card with progress indicators  instead of a dashboard
 
 Project Structure
 Project Structure

@@ -220,6 +220,7 @@ class _UpdateBottomSheetState extends State<UpdateBottomSheet> {
                 SizedBox(height: 10),
                 Text("Task Priority", style: TextStyle(color: Colors.white)),
                 SizedBox(height: 10),
+
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
@@ -293,7 +294,6 @@ class _UpdateBottomSheetState extends State<UpdateBottomSheet> {
                     ),
                   ],
                 ),
-                SizedBox(height: 16),
                 SizedBox(height: 16),
                 Row(
                   children: [

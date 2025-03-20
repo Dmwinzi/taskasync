@@ -54,7 +54,7 @@ class Completed extends StatelessWidget {
               },
               child: TaskCrd(
                 title: task.title ?? "Task",
-                progress: 0.0,
+                progress: 1.0,
                 priority: task.priority ?? "Low",
                 isCompleted: false,
                 onDelete: () => viewModel.deleteTask(task.id!),
